@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MT</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+          </li>
+        </ul>
+        <div class="header__cart__price">Mặt hàng: <span>$150.00</span></div>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__language">
+          <img src="img/language.png" alt="" />
+          <div>English</div>
+          <span class="arrow_carrot-down"></span>
+          <ul>
+            <li><a href="#">Spanis</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </div>
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
+        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Trang chủ</a></li>
+          <li><a href="./shop-grid.html">Cửa hàng</a></li>
+          <li>
+            <a href="#">Trang</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./shop-details.html">Chi tiết cửa hàng</a></li>
+              <li><a href="./blog-details.html">Chi tiết Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li><i class="fa fa-envelope"></i> ABC@gmail.com</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li><i class="fa fa-envelope"></i> ABC@gmail.com</li>
+                  <li>0 vnđ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </div>
+                <div class="header__top__right__auth">
+                  <a href="./login.html"
+                    ><i class="fa fa-user"></i> Đăng nhập</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./shop-grid.html">Cửa hàng</a></li>
+                <li>
+                  <a href="#">Trang</a>
+                  <ul class="header__menu__dropdown">
+                    <li><a href="./shop-details.html">Chi tiết Cửa hàng</a></li>
+                    <li><a href="./blog-details.html">Chi tiết Blog</a></li>
+                  </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">
+                Mặt hàng: <span>150.00 vnđ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Tất cả sản phẩm</span>
+              </div>
+              <ul>
+                <li><a href="#">Trà sữa</a></li>
+                <li><a href="#">Trà sữa</a></li>
+                <li><a href="#">Trà sữa</a></li>
+                <li><a href="#">Trà sữa</a></li>
+                <li><a href="#">Trà sữa</a></li>
+                <li><a href="#">Trà sữa</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Danh sách sản phẩm
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="What do yo u need?" />
+                  <button type="submit" class="site-btn">Tìm kiếm</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>0342625114</h5>
+                  <span>Hỗ trợ 24/7</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="hero__item set-bg"
+              data-setbg="data:image/jpeg;base64,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"
+            >
+              <div class="hero__text">
+                <span>Trà sữa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="container">
+        <div class="row">
+          <div class="categories__slider owl-carousel">
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/4-3.png"
+              >
+                <h5><a href="#">Trà sữa</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/4-3.png"
+              >
+                <h5><a href="#">Trà sữa</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/4-3.png"
+              >
+                <h5><a href="#">Trà sữa</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/4-3.png"
+              >
+                <h5><a href="#">Trà sữa</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/4-3.png"
+              >
+                <h5><a href="#">Trà sữa</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>trà sữa</h2>
+            </div>
+            <div class="featured__controls">
+              <ul>
+                <li class="active" data-filter="*">Tất cả</li>
+                <li data-filter=".oranges">Trà sữa</li>
+                <li data-filter=".oranges">Trà sữa</li>
+                <li data-filter=".oranges">Trà sữa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row featured__filter">
+          <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnlHRDtsIZGju9Z5vwDXFNSuPqb1xNFzLTw&usqp=CAU"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">trà dào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="http://gongcha.com.vn/wp-content/uploads/2018/02/Tr%C3%A0-s%E1%BB%AFa-Tr%C3%A2n-ch%C3%A2u-%C4%91en-1.png"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">trà đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="https://assets.grab.com/wp-content/uploads/sites/11/2020/03/23182624/128.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-4.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-5.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-6.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-7.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-8.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Trà sữa đào</a></h6>
+                <h5>$30.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Banner Begin -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Latest Product Section Begin -->
+    <section class="latest-product spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>sản phẩm</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>sản phẩm giảm giá</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>trải nghiệm sản phẩm</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Trà sữa đào</h6>
+                      <span>$30.00</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Product Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title from-blog__title">
+              <h2>Trang Blog</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-1.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> 2023</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5><a href="#">Trà sữa</a></h5>
+                <p>Trà sữa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-2.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> 2023</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5><a href="#">trà sữa</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-3.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> 2023</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+              </div>
+              <ul>
+                <li>Address: Đinh Khắc tuấn</li>
+                <li>Phone: 0342625114</li>
+                <li>Email: dinhkhactuan2002@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+              <h6>liên kết</h6>
+              <ul>
+                <li><a href="#">Về tôi</a></li>
+                <li><a href="#">Về tôi</a></li>
+                <li><a href="#">Về tôi</a></li>
+                <li><a href="#">Về tôi</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Trang web</a></li>
+                <li><a href="#">Trang web</a></li>
+                <li><a href="#">Trang web</a></li>
+                <li><a href="#">Trang web</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+              <h6>Gửi Tin nhắn Qua Email</h6>
+              <form action="#">
+                <input type="text" placeholder="Enter your mail" />
+                <button type="submit" class="site-btn">Đăng Ký</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
